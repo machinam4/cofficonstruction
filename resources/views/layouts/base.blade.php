@@ -250,6 +250,26 @@
 
     <a id="scroll-top">TOP</a>
 
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+254 758 309 015", // WhatsApp number
+            call: "+254 758 309 015", // Call phone number
+            call_to_action: "Message us", // Call to action
+            button_color: "#932C8B", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,call", // Order of buttons
+            pre_filled_message: "Hello, how may we help you? Just send us a message", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
     <!-- Javascript -->
     <script type="text/javascript" src="{{ asset('assets/js/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
