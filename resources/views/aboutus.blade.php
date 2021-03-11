@@ -56,7 +56,7 @@
 
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Cras id justo eget sapien scelerisque lacinia non a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.</p>
 
-                                    <a class="wprt-button small rounded-3px" href="{{Route('contact')}}">GET A QOUTE</a>
+                                    <a class="wprt-button small rounded-3px" href="{{Route('contact')}} ">GET A QOUTE</a>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-6 -->
