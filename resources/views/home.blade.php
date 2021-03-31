@@ -2,12 +2,12 @@
 
 @section('content')
 <!-- Hero Background SlideShow -->
-            <div id="hero-section" data-number="3" data-image-1="assets/img/slider/1.jpg" data-image-2="assets/img/slider/2.jpg" data-image-3="assets/img/slider/3.jpg" data-effect="fade">
+            <div id="hero-section" data-number="3" data-image-1="assets/img/coffi/cofficonstruction1.webp" data-image-2="assets/img/coffi/cofficonstruction1.webp" data-image-3="assets/img/coffi/cofficonstruction1.webp" data-effect="fade">
                 <div class="hero-content">
                     <div class="hero-title">
-                        <h1>BUILDER &amp; REPAIR.</h1>
-                        <h1>BUILD SMART BUILDINGS.</h1>
-                        <h1>WE ARE CONSTRUCTION.</h1>
+                        <h1>WE DESIGN.</h1>
+                        <h1>WE SUPPLY.</h1>
+                        <h1>WE FIT.</h1>
                     </div>
 
                     <div class="links">
@@ -36,14 +36,10 @@
                                             <div class="col-md-4">
 
                                                 <div class="service-item clearfix text-center">
-                                                    <div class="thumb"><img src="assets/img/services/4.jpg" alt="image" /></div>
+                                                    <div class="thumb"><img src="assets/img/coffi/cofficonstruction.webp" alt="image" /></div>
                                                     <div class="service-item-wrap">
-                                                        <h3 class="title font-size-18"><a href="#">Construction
-                                                                Consultant</a></h3>
-                                                        <p class="desc">Sed sit amet sapien sit amet odio lobortis
-                                                            ullamcorper quis vel nisl. Nam blandit maximus tristique.
-                                                            Vivamus enim quam, tincidunt vel blandit eu, molestie eget
-                                                            arcu.</p>
+                                                        <h3 class="title font-size-18"><a href="#">Architectural and structural drawings</a></h3>
+                                                        <p class="desc">We are equiped with skilled and talented architects with high qualifications to deliver you the best design for your construction project.</p>
                                                         <div class="link">
                                                             <a href="{{Route('services')}}" class="wprt-button small rounded-3px">READ
                                                                 MORE</a>
@@ -56,14 +52,10 @@
 
                                             <div class="col-md-4">
                                                 <div class="service-item clearfix text-center">
-                                                    <div class="thumb"><img src="assets/img/services/5.jpg" alt="image" /></div>
+                                                    <div class="thumb"><img src="assets/img/coffi/bypass back view-1.png" alt="image" /></div>
                                                     <div class="service-item-wrap">
-                                                        <h3 class="title font-size-18"><a href="#">Resconstruction
-                                                                Services</a></h3>
-                                                        <p class="desc">Sed sit amet sapien sit amet odio lobortis
-                                                            ullamcorper quis vel nisl. Nam blandit maximus tristique.
-                                                            Vivamus enim quam, tincidunt vel blandit eu, molestie eget
-                                                            arcu.</p>
+                                                        <h3 class="title font-size-18"><a href="#">Construction &amp; Recconstruction</a></h3>
+                                                        <p class="desc">With our top engineers we assure the best construction from the ground leveling, foundation to the finishing. Top notch constructions and reconstruction is our expertise.</p>
                                                         <div class="link">
                                                             <a href="{{Route('services')}}" class="wprt-button small rounded-3px">READ
                                                                 MORE</a>
@@ -76,13 +68,10 @@
 
                                             <div class="col-md-4">
                                                 <div class="service-item clearfix text-center">
-                                                    <div class="thumb"><img src="assets/img/services/6.jpg" alt="image" /></div>
+                                                    <div class="thumb"><img src="assets/img/coffi/CARO FRONT VIEW-1.png" alt="image" /></div>
                                                     <div class="service-item-wrap">
-                                                        <h3 class="title font-size-18"><a href="#">Architectural
-                                                                Design</a></h3>
-                                                        <p class="desc">Sed sit amet sapien sit amet odio lobortis
-                                                            ullamcorper quis vel nisl. Nam blandit maximus tristique.
-                                                            Vivamus enim quam, tincidunt vel blandit eu, molestie eget.
+                                                        <h3 class="title font-size-18"><a href="#">Supply &amp; Installation</a></h3>
+                                                        <p class="desc">We supply buiding materials such as tiles, bathroom fittings, kitchen sinks, wardrobes and all types of wooden finishes.
                                                         </p>
                                                         <div class="link">
                                                             <a href="{{Route('services')}}" class="wprt-button small rounded-3px">READ
@@ -122,19 +111,13 @@
                                                 <span>Architecture</span>
                                             </div>
                                             <div data-filter=".building" class="cbp-filter-item">
-                                                <span>Building</span>
+                                                <span>Bungalows</span>
                                             </div>
                                             <div data-filter=".garden" class="cbp-filter-item">
-                                                <span>Garden</span>
+                                                <span>Apartments</span>
                                             </div>
                                             <div data-filter=".interior" class="cbp-filter-item">
                                                 <span>Interior</span>
-                                            </div>
-                                            <div data-filter=".office" class="cbp-filter-item">
-                                                <span>Office</span>
-                                            </div>
-                                            <div data-filter=".workspace" class="cbp-filter-item">
-                                                <span>Workspace</span>
                                             </div>
                                         </div><!-- /#project-filter -->
 
@@ -348,9 +331,7 @@
 
                                                 <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
 
-                                                <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu
-                                                    non placerat. Praesent nibh massa varius.</p>
+                                                <p class="wprt-subtitle">We Coffi Construction offer the best in all contruction fields, architectural and designs. You want the best? Try us.</p>
                                                 <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
                                             </div><!-- /.col-md-12 -->
 
@@ -392,7 +373,7 @@
                                                     <div class="icon">
                                                         <i class="icon-o-tools-1"></i>
                                                     </div>
-                                                    <h3><a href="#">CONSTRUCT</a></h3>
+                                                    <h3><a href="#">SUPPLY</a></h3>
                                                 </div>
 
                                                 <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
@@ -414,76 +395,9 @@
                                                     <div class="icon">
                                                         <i class="icon-o-light-bulb-1"></i>
                                                     </div>
-                                                    <h3><a href="#">ELECTRICAL</a></h3>
+                                                    <h3><a href="#">DESIGN</a></h3>
                                                 </div>
                                             </div>
-
-                                            <div class="col-md-4">
-                                                <div class="wprt-spacer" data-desktop="118" data-mobi="80" data-smobi="50"></div>
-
-                                                <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                                    <div class="icon-wrap font-size-45">
-                                                        <span class="dd-icon icon-drill-2"></span>
-                                                    </div>
-                                                    <div class="content-wrap">
-                                                        <h3 class="dd-title font-size-18"><a href="#">Prepair
-                                                                Services</a></h3>
-                                                        <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
-                                                            sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="wprt-spacer" data-desktop="43" data-mobi="30" data-smobi="20"></div>
-
-                                                <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                                    <div class="icon-wrap font-size-35">
-                                                        <span class="dd-icon icon-tap-1"></span>
-                                                    </div>
-                                                    <div class="content-wrap">
-                                                        <h3 class="dd-title font-size-18"><a href="#">Creative
-                                                                Plumbing</a></h3>
-                                                        <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
-                                                            sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                                    </div>
-                                                </div>
-                                            </div><!-- /.col-md-4 -->
-
-                                            <div class="col-md-4">
-                                                <div class="wprt-spacer" data-desktop="118" data-mobi="30" data-smobi="20"></div>
-
-                                                <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                                    <div class="icon-wrap font-size-35">
-                                                        <span class="dd-icon icon-paint-roller-1"></span>
-                                                    </div>
-                                                    <div class="content-wrap">
-                                                        <h3 class="dd-title font-size-18"><a href="#">Wall Painting</a>
-                                                        </h3>
-                                                        <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
-                                                            sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="wprt-spacer" data-desktop="43" data-mobi="30" data-smobi="20"></div>
-
-                                                <div class="wprt-icon-box accent-background rounded icon-effect-2 icon-left">
-                                                    <div class="icon-wrap font-size-35">
-                                                        <span class="dd-icon icon-roof"></span>
-                                                    </div>
-                                                    <div class="content-wrap">
-                                                        <h3 class="dd-title font-size-18"><a href="#">Metal Roofing</a>
-                                                        </h3>
-                                                        <p>Vestibulum eu libero volutpat, portas quam, tempus sem. Donec
-                                                            sodales quam id lorem lobortis, vitae interdum nisl.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="20"></div>
-                                            </div><!-- /.col-md-4 -->
-
-                                            <div class="col-md-4">
-                                                <img src="assets/img/man.png" alt="image" />
-                                            </div><!-- /.col-md-4 -->
-
                                         </div><!-- /.row -->
                                     </div><!-- /.container -->
                                 </section>
@@ -496,12 +410,12 @@
                                                 <div class="wprt-spacer" data-desktop="8" data-mobi="0" data-smobi="0">
                                                 </div>
                                                 <h2 class="text-white text-center-mobile font-size-20 margin-bottom-0">
-                                                    Contractors & Construction Managers Since 1981</h2>
+                                                   You want the best? Try us...</h2>
                                                 <div class="wprt-spacer" data-desktop="0" data-mobi="20" data-smobi="20"></div>
                                             </div><!-- /.col-md-8 -->
 
                                             <div class="col-md-4">
-                                                <div class="text-right text-center-mobile"><a href="#" class="wprt-button white rounded-3px">GET A QUOTE</a></div>
+                                                <div class="text-right text-center-mobile"><a href="{{route('contact')}}" class="wprt-button white rounded-3px">GET A QUOTE</a></div>
                                             </div><!-- /.col-md-4 -->
 
                                         </div><!-- /.row -->
@@ -525,52 +439,22 @@
                                                     </div>
                                                     <div class="wprt-spacer" data-desktop="50" data-mobi="30" data-smobi="30"></div>
 
-                                                    <div class="wprt-toggle bg-white style-1">
+                                                    <div class="wprt-toggle bg-white active style-1">
                                                         <h3 class="toggle-title">Employees have many years of experience
                                                         </h3>
-                                                        <div class="toggle-content">Lorem ipsum dolor sit amet,
-                                                            consectetur adipiscing elit. In a metus pellentesque,
-                                                            scelerisque ex sed, volutpat nisi. Curabitur tortor mi,
-                                                            eleifend ornare lobortis non. Nulla porta purus quis iaculis
-                                                            ultrices. Proin aliquam sem at nibh hendrerit sagittis.
-                                                            Nullam ornare odio eu lacus tincidunt malesuada. Sed eu
-                                                            vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
-                                                    </div>
-
-                                                    <div class="wprt-toggle bg-white active style-1">
-                                                        <h3 class="toggle-title">Quality construction continues after
-                                                            the project</h3>
-                                                        <div class="toggle-content">Lorem ipsum dolor sit amet,
-                                                            consectetur adipiscing elit. In a metus pellentesque,
-                                                            scelerisque ex sed, volutpat nisi. Curabitur tortor mi,
-                                                            eleifend ornare lobortis non. Nulla porta purus quis iaculis
-                                                            ultrices. Proin aliquam sem at nibh hendrerit sagittis.
-                                                            Nullam ornare odio eu lacus tincidunt malesuada. Sed eu
-                                                            vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                                        <div class="toggle-content">Coffi Construction boast at their high number of qualified and experienced architects, engineers and project manager with many completed and outstanding buildings in different regions of the country.</div>
                                                     </div>
 
                                                     <div class="wprt-toggle bg-white style-1">
-                                                        <h3 class="toggle-title">We use technology to do the job more
-                                                            quickly</h3>
-                                                        <div class="toggle-content">Lorem ipsum dolor sit amet,
-                                                            consectetur adipiscing elit. In a metus pellentesque,
-                                                            scelerisque ex sed, volutpat nisi. Curabitur tortor mi,
-                                                            eleifend ornare lobortis non. Nulla porta purus quis iaculis
-                                                            ultrices. Proin aliquam sem at nibh hendrerit sagittis.
-                                                            Nullam ornare odio eu lacus tincidunt malesuada. Sed eu
-                                                            vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                                        <h3 class="toggle-title">Quality construction continues after
+                                                            the project</h3>
+                                                        <div class="toggle-content">To ensure safety and quality of the constructions, Coffi Constructions does quality checkups before, during the construction and even after the construction to ensure customer satisfaction.</div>
                                                     </div>
 
                                                     <div class="wprt-toggle bg-white style-1">
                                                         <h3 class="toggle-title">Employees are continually trained on
                                                             safety issues</h3>
-                                                        <div class="toggle-content">Lorem ipsum dolor sit amet,
-                                                            consectetur adipiscing elit. In a metus pellentesque,
-                                                            scelerisque ex sed, volutpat nisi. Curabitur tortor mi,
-                                                            eleifend ornare lobortis non. Nulla porta purus quis iaculis
-                                                            ultrices. Proin aliquam sem at nibh hendrerit sagittis.
-                                                            Nullam ornare odio eu lacus tincidunt malesuada. Sed eu
-                                                            vestibulum elit. Curabitur tortor mi, eleifend ornare.</div>
+                                                        <div class="toggle-content">At Coffi Construction, employee training doesnt end at hiring, continous trainings are done to ensure safety and new tecnology and skills are arbsorbed to adapt to the changing and evolving engineering world.</div>
                                                     </div>
                                                 </div><!-- /.wprt-content-box -->
                                             </div><!-- /.col-md-6 -->

@@ -41,23 +41,22 @@
 
                                     <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
 
-                                    <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu non placerat. Praesent nibh massa varius.</p>
                                     <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-12 -->
 
                                 <div class="col-md-4">
                                     <h5>Address</h5>
-                                    <p>68 Havemeyer St, Brooklyn, NY 11211<br> United States</p>
+                                    <p>1127 Ngara, 00600 Ngara,<br> Nairobi</p>
 
                                     <div class="wprt-spacer" data-desktop="15" data-mobi="0" data-smobi="0"></div>
 
                                     <h5>Phone number</h5>
-                                    <p>+1 718-955-2838 or +1 718-955-3290</p>
+                                    <p>+254 (020) 800-029 <br>+254 (720) 277-408</p>
 
                                     <div class="wprt-spacer" data-desktop="15" data-mobi="0" data-smobi="0"></div>
 
                                     <h5>E-mail address</h5>
-                                    <a href="mailto:info@construction.coffiinvestments.co.ke">info@construction.coffiinvestments.co.ke</a>
+                                    <a href="mailto:cofficonstruction@gmail.com">cofficonstruction@gmail.com</a>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="10" data-smobi="10"></div>
                                 </div><!-- /.col-md-4 -->

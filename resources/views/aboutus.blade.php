@@ -11,7 +11,7 @@
             <div id="breadcrumbs">
                 <div class="breadcrumbs-inner">
                     <div class="breadcrumb-trail">
-                    <a href="{{Route('home')}}" title="Construction" rel="home" class="trail-begin">Home</a>
+                        <a href="{{Route('home')}}" title="Construction" rel="home" class="trail-begin">Home</a>
                         <span class="sep">/</span>
                         <span class="trail-end">About Us</span>
                     </div>
@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-    <!-- Main Content -->
+<!-- Main Content -->
 <div id="main-content" class="site-main clearfix">
     <div id="content-wrap">
         <div id="site-content" class="site-content clearfix">
@@ -39,63 +39,101 @@
 
                                     <div class="wprt-spacer" data-desktop="36" data-mobi="30" data-smobi="30"></div>
 
-                                    <p class="wprt-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit.<br> Nam semper ut arcu non placerat. Praesent nibh massa varius.</p>
+                                    <P>COFFI Construction began as a general works contractor in 2015. Over the years,
 
-                                    <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
+                                        the group has undertaken many challenging projects and accumulated skills, know-
+                                        how and experiences in design and build solutions, project management services,
+
+                                        building trades and related engineering works.</P>
+                                    <P>
+                                        Today, COFFI Construction takes on the role of main contractor for small to
+                                        medium
+                                        size projects and performs project management services to coordinates specialist
+                                        trades for industrial/commercial projects. We also provide design inputs and
+                                        engineering solutions as value-add services to our clients.</P>
+                                    <P>
+                                        Our objective is to provide our clients with an “I am assured” experience when
+                                        we are
+
+                                        chosen to execute their projects. Our emphasis on clear communication and
+                                        follow-
+                                        through procedures ensures that client’s objectives are top priority in the
+                                        planning
+
+                                        and execution of all our processes.
+                                        Our project management and execution philosophy are:
+                                        <ul>
+                                            <li> create detail schedule and resources plan to meet client’s project
+                                                objective,</li>
+                                            <li> communicate clearly with all project stakeholders,</li>
+                                            <li> track project progress and fine-tune deviations,</li>
+                                            <li> supervise closely on quality of work done,</li>
+                                            <li> complete and commission the project on time.</li>
+                                        </ul>
+
+                                        We take pride in our delivery; thus, our clients can always be assured that only the
+                                        most experienced and qualified people are serving them, all the time.</P>
+
+                                    <h3 class="line-height-normal margin-bottom-10">Our Vision:</h3>
+                                    <div class="wprt-lines style-1 custom-3">
+                                        <div class="line-1"></div>
+                                    </div>
+                                    <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
+                                    <P>To be a respectable building contractor delivering beyond expectation, always.
+                                        <P>
+                                            <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
+                                            <h3 class="line-height-normal margin-bottom-10">Our Mission:</h3>
+                                            <div class="wprt-lines style-1 custom-3">
+                                                <div class="line-1"></div>
+                                            </div>
+                                            <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
+                                            <P>To procure projects at competitive pricing, provide safe working conditions and
+                                                deliver quality work within reasonable time frame.</P>
+                                            <div class="wprt-spacer" data-desktop="40" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-12 -->
 
-                                <div class="col-md-6">
-                                    <h3 class="line-height-normal margin-bottom-10">WHY CHOOSE US</h3>
+                                <div class="col-md-12">
+                                    <h3 class="line-height-normal margin-bottom-10">Our Management Team:</h3>
                                     <div class="wprt-lines style-1 custom-3">
                                         <div class="line-1"></div>
                                     </div>
 
                                     <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
 
-                                    <p class=" margin-bottom-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae interdum nisl vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam suscipit, elit quis facilisis dictum, diam justo volutpat dui. Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.</p>
+                                    <p class=" margin-bottom-25">The business is driven by our working directors,
+                                        collectively they
+                                        accumulated more than 60 years of work experience in the building industry.
+                                        They are involved in the business development, procurement, project
+                                        management and administration of the company.</p>
+                                    <p>
+                                        The management team proactively gathers feedback, identifies changes in
+                                        business environment, reviews work processes and communicates key
+                                        learning points and company policy to all staff at regular meetings.</p>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Cras id justo eget sapien scelerisque lacinia non a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat.</p>
 
-                                    <a class="wprt-button small rounded-3px" href="{{Route('contact')}} ">GET A QOUTE</a>
+                                    <h3 class="line-height-normal margin-bottom-10">Our People:</h3>
+                                    <div class="wprt-lines style-1 custom-3">
+                                        <div class="line-1"></div>
+                                    </div>
+
+                                    <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
+
+                                    <p class=" margin-bottom-25">Our people are crucial in the delivery of our services
+                                        and solution to our
+                                        clients. In order to ensure that everyone is equipped with the right skill,
+                                        knowledge and attitude, a comprehensive training programme is put in place
+                                        to constantly upgrade our people in technical and management skills.</p>
+                                    <p>
+                                        We believe firmly in providing the right training, accredited certification and
+                                        practical knowledge for our people, in order for them to execute their duties
+                                        and responsibilities confidently. Our aim is to stay relevant to the ever-
+                                        changing market place and client’s requirement.</p>
+
+
+                                    <a class="wprt-button small rounded-3px" href="{{Route('contact')}} ">GET A
+                                        QOUTE</a>
 
                                     <div class="wprt-spacer" data-desktop="0" data-mobi="30" data-smobi="30"></div>
-                                </div><!-- /.col-md-6 -->
-
-                                <div class="col-md-6">
-                                    <div class="wprt-galleries galleries w-570px" data-width="135" data-margin="10">
-                                        <div id="wprt-slider" class="flexslider">
-                                            <ul class="slides">
-                                                <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/1.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/1.jpg" alt="image" />
-                                                </li>
-
-                                                <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/2.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/2.jpg" alt="image" />
-                                                </li>
-
-                                                <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/3.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/3.jpg" alt="image" />
-                                                </li>
-
-                                                <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/4.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/4.jpg" alt="image" />
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div id="wprt-carousel" class="flexslider">
-                                            <ul class="slides">
-                                                <li><img src="assets/img/gallery/1-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/2-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/3-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/4-s.jpg" alt="image"></li>
-                                            </ul>
-                                        </div>
-                                    </div>
                                 </div><!-- /.col-md-6 -->
 
                                 <div class="col-md-12">
@@ -105,214 +143,6 @@
                         </div><!-- /.container -->
                     </section>
 
-
-                    <!-- TEAM -->
-                    <section class="wprt-section team">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="100" data-mobi="40" data-smobi="40"></div>
-
-                                    <h2 class="margin-bottom-10">MEET OUR TEAM</h2>
-                                    <div class="wprt-lines style-1 custom-3">
-                                        <div class="line-1"></div>
-                                        <div class="line-2"></div>
-                                    </div>
-
-                                    <div class="wprt-spacer" data-desktop="50" data-mobi="30" data-smobi="30"></div>
-
-                                    <div class="wprt-team has-bullets bullet-style-1 has-arrows arrow-style-2 arrow-light" data-layout="slider" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-gaph="30" data-gapv="30">
-                                        <div id="team-wrap" class="cbp">
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Richard Wagner</h4>
-                                                            <div class="position">Civil Engineer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/2.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Sarah Spence</h4>
-                                                            <div class="position">Construction Assistant</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/3.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Halpern</h4>
-                                                            <div class="position">Construction Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/4.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Tommy Atkins</h4>
-                                                            <div class="position">Electricians</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Joe</h4>
-                                                            <div class="position">Junior Architect</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/2.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Richard Wagner</h4>
-                                                            <div class="position">Civil Engineer</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/3.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Sarah Spence</h4>
-                                                            <div class="position">Construction Assistant</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/4.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">John Halpern</h4>
-                                                            <div class="position">Construction Manager</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="cbp-item">
-                                                <div class="member">
-                                                    <div class="inner">
-                                                        <div class="image">
-                                                            <div class="inner">
-                                                                <img src="assets/img/team/1.jpg" alt="image" />
-                                                            </div>
-                                                             <ul class="socials clearfix">
-                                                                <li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                                <li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                             </ul>
-                                                        </div>
-                                                        <div class="texts">
-                                                            <h4 class="name">Tommy Atkins</h4>
-                                                            <div class="position">Electricians</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div><!-- /#team-wrap -->
-                                    </div><!-- /.wprt-team -->
-                                </div><!-- /.col-md-12 -->
-
-                                <div class="col-md-12">
-                                    <div class="wprt-spacer" data-desktop="80" data-mobi="40" data-smobi="40"></div>
-                                </div><!-- /.col-md-12 -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </section>
                 </div>
             </div>
         </div>

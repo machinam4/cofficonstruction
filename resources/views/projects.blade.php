@@ -32,14 +32,14 @@
                                 <div class="col-md-12">
                                     <div class="wprt-spacer" data-desktop="70" data-mobi="40" data-smobi="40"></div>
 
-                                    <h2 class="text-center font-size-28 margin-bottom-10">PORTFOLIO GRID FULL</h2>
+                                    <h2 class="text-center font-size-28 margin-bottom-10">OUR PROJECTS</h2>
                                     <div class="wprt-lines style-2 custom-1">
                                         <div class="line-1"></div>
                                     </div>
 
                                     <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
 
-                                    <p class="wprt-subtitle">Cras id justo eget sapien scelerisque lacinia non a eros. In a volutpat magna. Vivamus pretium urna at condimentum porta. Phasellus mollis mauris dolor, a tincidunt mauris fringilla.</p>
+                                    <p class="wprt-subtitle">Browse through the variety of top notch Coffi Construction projects both complete and ongoing.</p>
 
                                     <div class="wprt-spacer" data-desktop="43" data-mobi="30" data-smobi="30"></div>
                                 </div><!-- /.col-md-12 -->
@@ -54,19 +54,13 @@
                                                 <span>Architecture</span>
                                             </div>
                                             <div data-filter=".building" class="cbp-filter-item">
-                                                <span>Building</span>
+                                                <span>Bungalows</span>
                                             </div>
                                             <div data-filter=".garden" class="cbp-filter-item">
-                                                <span>Garden</span>
+                                                <span>Apartments</span>
                                             </div>
                                             <div data-filter=".interior" class="cbp-filter-item">
                                                 <span>Interior</span>
-                                            </div>
-                                            <div data-filter=".office" class="cbp-filter-item">
-                                                <span>Office</span>
-                                            </div>
-                                            <div data-filter=".workspace" class="cbp-filter-item">
-                                                <span>Workspace</span>
                                             </div>
                                         </div><!-- /#project-filter -->
 

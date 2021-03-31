@@ -62,6 +62,7 @@
                                 <span id="top-bar-text">
                                     <i class="fa fa-map-marker"></i>1127 Ngara, 00600 Ngara, Nairobi
                                     <i class="fa fa-phone"></i>+254 (020) 800-029
+                                    <i class="fa fa-phone"></i>+254 (720) 277-408
                                 </span><!-- /#top-bar-text -->
                             </div><!-- /.top-bar-content -->
 
@@ -70,7 +71,7 @@
                                     <span class="icons">
                                         <a href="#" title="Twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
                                         <a href="#" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                        <a href="#" title="Google Plus"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                                        <a href="https://www.instagram.com/coffi_construction/" title="Instagram"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
                                         <a href="#" title="Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span></a>
                                         <a href="#" title="Dribbble"><span class="fa fa-dribbble" aria-hidden="true"></span></a>
                                     </span>
@@ -88,7 +89,7 @@
                                 <div id="site-logo-inner">
                                     {{-- change --}}
                                     <a href="home-hero-slideshow.html" title="Coffi Construction" rel="home" class="main-logo">
-                                        <img src="{{ asset('assets/icon/coffi_logo1.png')}}" alt="Coffi Construction" data-retina="assets/img/logo@2x.png" data-width="204" data-height="30">
+                                        <img src="{{ asset('assets/icon/coffi_logo1.png')}}" alt="Coffi Construction" data-retina="{{ asset('assets/icon/coffi_logo1.png')}}" data-width="204" data-height="30">
                                     </a>
                                 </div>
                             </div><!-- /#site-logo -->
@@ -126,7 +127,8 @@
                                     <ul class="info-wrap">
                                         <li class="address item">1127 Ngara, 00600 Ngara, Nairobi</li>
                                         <li class="phone item">+254 (020) 800-029</li>
-                                        <li class="email item">info@coffiinvestmentsco.ke</li>
+                                        <li class="phone item">+254 (720) 277-408</li>
+                                        <li class="email item">cofficonstruction@gmail.com</li>
                                     </ul>
                             </div>
                         </div>
