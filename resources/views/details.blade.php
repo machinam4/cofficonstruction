@@ -6,7 +6,7 @@
     <div id="featured-title-inner" class="container clearfix">
         <div class="featured-title-inner-wrap">
             <div class="featured-title-heading-wrap">
-                <h1 class="featured-title-heading">Project Details</h1>
+                <h1 class="featured-title-heading">{{$project->title}}</h1>
             </div>
             <div id="breadcrumbs">
                 <div class="breadcrumbs-inner">
@@ -15,7 +15,7 @@
                         <span class="sep">/</span>
                         <a href="{{Route('projects')}}" title="Projects" rel="home" class="trail-begin">Projects</a>
                         <span class="sep">/</span>
-                        <span class="trail-end">Project Details</span>
+                        <span class="trail-end">{{$project->title}}</span>
                     </div>
                 </div>
             </div>
@@ -40,39 +40,39 @@
                                         <div id="wprt-slider" class="flexslider">
                                             <ul class="slides">
                                                 <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/1-b.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/1-b.jpg" alt="image" />
+                                                    <a class="zoom" href="{{Storage::url($project->image1)}}"><i class="fa fa-arrows-alt"></i></a>
+                                                    <img src="{{Storage::url($project->image1)}}" alt="image" />
                                                 </li>
 
                                                 <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/2-b.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/2-b.jpg" alt="image" />
+                                                    <a class="zoom" href="{{Storage::url($project->image2)}}"><i class="fa fa-arrows-alt"></i></a>
+                                                    <img src="{{Storage::url($project->image2)}}" alt="image" />
                                                 </li>
 
                                                 <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/3-b.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/3-b.jpg" alt="image" />
+                                                    <a class="zoom" href="{{Storage::url($project->image3)}}"><i class="fa fa-arrows-alt"></i></a>
+                                                    <img src="{{Storage::url($project->image3)}}" alt="image" />
                                                 </li>
 
                                                 <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/4-b.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/4-b.jpg" alt="image" />
+                                                    <a class="zoom" href="{{Storage::url($project->image4)}}"><i class="fa fa-arrows-alt"></i></a>
+                                                    <img src="{{Storage::url($project->image4)}}" alt="image" />
                                                 </li>
 
                                                 <li class="flex-active-slide">
-                                                    <a class="zoom" href="assets/img/gallery/1-b.jpg"><i class="fa fa-arrows-alt"></i></a>
-                                                    <img src="assets/img/gallery/1-b.jpg" alt="image" />
+                                                    <a class="zoom" href="{{Storage::url($project->image5)}}"><i class="fa fa-arrows-alt"></i></a>
+                                                    <img src="{{Storage::url($project->image5)}}" alt="image" />
                                                 </li>
                                             </ul>
                                         </div>
 
                                         <div id="wprt-carousel" class="flexslider">
                                             <ul class="slides">
-                                                <li><img src="assets/img/gallery/1-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/2-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/3-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/4-s.jpg" alt="image"></li>
-                                                <li><img src="assets/img/gallery/1-s.jpg" alt="image"></li>
+                                                <li><img src="{{Storage::url($project->image1)}}" alt="image"></li>
+                                                <li><img src="{{Storage::url($project->image2)}}" alt="image"></li>
+                                                <li><img src="{{Storage::url($project->image3)}}" alt="image"></li>
+                                                <li><img src="{{Storage::url($project->image4)}}" alt="image"></li>
+                                                <li><img src="{{Storage::url($project->image5)}}" alt="image"></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -89,18 +89,17 @@
 
                                     <div class="wprt-spacer" data-desktop="25" data-mobi="25" data-smobi="25"></div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit. Vestibulum eu libero volutpat, portas quam acc, tempus sem. Donec sodales quam id lorem lobortis, vitae. </p>
-                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque nec erat erat. Integer blandit nulla quis fermentum hendrerit.</p>
+                                    <p>{{ $project->description}} </p>
 
                                     <div class="wprt-lines style-1 custom-4">
                                         <div class="line-1"></div>
                                     </div>
 
                                     <ul class="wprt-list style-2 accent-color margin-top-30 margin-bottom-30">
-                                        <li><strong>Client:</strong> ThemeForest Builder</li>
-                                        <li><strong>Architect:</strong> Richardson and Sandra</li>
-                                        <li><strong>Builder:</strong> GraphicRiver Builder Corporate</li>
-                                        <li><strong>Budget:</strong> $1 250 000,00</li>
+                                        <li><strong>Client:</strong> {{ $project->Client}}</li>
+                                        <li><strong>Architect:</strong> {{ $project->architect}}</li>
+                                        <li><strong>Builder:</strong> {{ $project->builder}}</li>
+                                        <li><strong>Budget:</strong> Ksh {{ ReadableNumber($project->budget)}}</li>
                                     </ul>
                                 </div><!-- /.col-md-4 -->
 

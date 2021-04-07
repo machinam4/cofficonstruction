@@ -137,17 +137,17 @@
                             <div class="widget widget_tag_cloud">
                                 <h2 class="widget-title">Popular tags</h2>
                                 <div class="tagcloud">
-                                    <a href="#">Architectural</a>
-                                    <a href="#">Builder</a>
-                                    <a href="#">Fire</a>
-                                    <a href="#">Building</a>
-                                    <a href="#">Garden design</a>
-                                    <a href="#">Interior</a>
-                                    <a href="#">Marketing events</a>
-                                    <a href="#">Coffiinvetments</a>
-                                    <a href="#">Construction</a>
-                                    <a href="#">Exterior</a>
-                                    <a href="#">Highway</a>
+                                    <a href="{{Route('aboutus')}}">Architectural</a>
+                                    <a href="{{Route('aboutus')}}">Builder</a>
+                                    <a href="{{Route('aboutus')}}">Fire</a>
+                                    <a href="{{Route('aboutus')}}">Building</a>
+                                    <a href="{{Route('aboutus')}}">Garden design</a>
+                                    <a href="{{Route('aboutus')}}">Interior</a>
+                                    <a href="{{Route('aboutus')}}">Marketing events</a>
+                                    <a href="{{Route('aboutus')}}">Coffiinvetments</a>
+                                    <a href="{{Route('aboutus')}}">Construction</a>
+                                    <a href="{{Route('aboutus')}}">Exterior</a>
+                                    <a href="{{Route('aboutus')}}">Highway</a>
                                 </div>
                             </div>
                         </div>
@@ -157,14 +157,14 @@
                                 <h2 class="widget-title">Useful links</h2>
 
                                 <ul class="links col2">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="{{Route('home')}}">Home</a></li>
                                     <li class="last"><a href="#">Help Center</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li class="last"><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li class="last"><a href="#">Conditions</a></li>
+                                    <li><a href="{{Route('projects')}}">Projects</a></li>
+                                    <li class="last"><a href="{{Route('aboutus')}}">About Us</a></li>
+                                    <li><a href="{{Route('services')}}">Services</a></li>
+                                    <li class="last"><a href="{{Route('contact')}}">Contact Us</a></li>
                                     <li><a href="#">Contact</a></li>
-                                    <li class="last"><a href="#">Privacy Legal</a></li>
+                                    <li class="last"><a href="{{Route('aboutus')}}">Company Profile</a></li>
                                 </ul>
                             </div>
                         </div>

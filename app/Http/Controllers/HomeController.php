@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Project;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,7 +24,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $projects = Project::latest()->paginate(8);
+        return view('home', [
+            'projects' => $projects
+        ]);
     }
     public function services()
     {
@@ -31,11 +35,16 @@ class HomeController extends Controller
     }
     public function projects()
     {
-        return view('projects');
+        $projects = Project::latest()->paginate(8);
+        return view('projects', [
+            'projects' => $projects
+        ]);
     }
-    public function details()
+    public function details(Project $project)
     {
-        return view('details');
+        return view('details', [
+            'project' => $project
+        ]);
     }
     public function aboutus()
     {

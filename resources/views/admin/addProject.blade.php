@@ -5,10 +5,10 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('Add New Project') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('admin.addproject') }}" enctype="multipart/form-data">
                         @csrf
 
                         <div class="form-group row">
@@ -18,6 +18,25 @@
                                 <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}" required autocomplete="title" autofocus>
 
                                 @error('title')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="category" class="col-md-3 col-form-label text-md-right">{{ __('Category') }}</label>
+
+                            <div class="col-md-8">
+                                <select id="category" type="text" class="form-control @error('category') is-invalid @enderror" name="category" value="{{ old('category') }}" required autocomplete="category">
+                                    <option selected>--Select Category--</option>
+                                    <option value="architecture">Architecture</option>
+                                    <option value="bungalow">Bungalow</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="interior">Interior</option>
+                                </select>
+                                @error('category')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -43,7 +62,7 @@
                             <label for="architect" class="col-md-3 col-form-label text-md-right">{{ __('Architect') }}</label>
 
                             <div class="col-md-8">
-                                <input id="architect" type="text" class="form-control @error('architect') is-invalid @enderror" name="architect" required autocomplete="new-architect">
+                                <input id="architect" type="text" class="form-control @error('architect') is-invalid @enderror" name="architect" value="{{ old('architect') }}" required autocomplete="new-architect">
 
                                 @error('architect')
                                     <span class="invalid-feedback" role="alert">
@@ -57,7 +76,7 @@
                             <label for="builder" class="col-md-3 col-form-label text-md-right">{{ __('Builder') }}</label>
 
                             <div class="col-md-8">
-                                <input id="builder" type="text" class="form-control @error('builder') is-invalid @enderror" name="builder" required autocomplete="new-builder">
+                                <input id="builder" type="text" class="form-control @error('builder') is-invalid @enderror" name="builder" value="{{ old('builder') }}" required autocomplete="new-builder">
 
                                 @error('builder')
                                     <span class="invalid-feedback" role="alert">
@@ -71,7 +90,7 @@
                             <label for="budget" class="col-md-3 col-form-label text-md-right">{{ __('Budget') }}</label>
 
                             <div class="col-md-8">
-                                <input id="budget" type="text" class="form-control @error('budget') is-invalid @enderror" name="budget" required autocomplete="new-budget">
+                                <input id="budget" type="number" min="1" class="form-control @error('budget') is-invalid @enderror" name="budget" value="{{ old('budget') }}" required autocomplete="new-budget">
 
                                 @error('budget')
                                     <span class="invalid-feedback" role="alert">
@@ -101,19 +120,6 @@
                                 <input id="image1" type="file" class="form-control @error('image1') is-invalid @enderror" name="image1" required autocomplete="new-image1">
 
                                 @error('image1')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-                         <div class="form-group row">
-                            <label for="image2" class="col-md-3 col-form-label text-md-right">{{ __('Image 2') }}</label>
-
-                            <div class="col-md-8">
-                                <input id="image2" type="file" class="form-control @error('image2') is-invalid @enderror" name="image2" required autocomplete="new-image2">
-
-                                @error('image2')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -175,8 +181,9 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
+                                <a class="btn btn-danger mr-2" type="reset" href="{{route('admin')}} ">cancel</a>
+                                <button type="submit" class="btn btn-success">
+                                    {{ __('Submit') }}
                                 </button>
                             </div>
                         </div>

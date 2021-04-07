@@ -65,192 +65,46 @@
                                         </div><!-- /#project-filter -->
 
                                         <div id="projects" class="cbp">
-                                            <div class="cbp-item architecture interior workspace">
+                                            @if ($projects->count())
+                                               @foreach ($projects as $project)
+                                                <div class="cbp-item {{$project->category}}">
                                                 <div class="project-item">
                                                     <div class="inner">
                                                         <div class="grid">
-                                                        <figure class="effect-zoe">
-                                                            <img src="assets/img/projects/1.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
+                                                            <figure class="effect-honey">
+                                                                <img src="{{Storage::url($project->image1)}}" alt="image" />
+                                                                <figcaption>
+                                                                    <div>
+                                                                        <h2><a href="{{Route('details', $project)}}">{{ $project->title}}</a></h2>
+                                                                        <p>{{ $project->category}}</p>
+                                                                    </div>
+                                                                </figcaption>
+                                                            </figure>
                                                         </div>
 
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/1-full.html" data-title="LUXURY BUILDINGS">
+                                                        <a class="project-zoom cbp-lightbox" href="{{Storage::url($project->image1)}}" data-title="{{ strtoupper($project->title)}}">
                                                             <i class="fa fa-arrows-alt"></i>
                                                         </a>
                                                     </div>
                                                 </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item building office workspace">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-honey">
-                                                            <img src="assets/img/projects/2.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/2-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item architecture garden interior">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-oscar">
-                                                            <img src="assets/img/projects/3.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/3-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item building interior workspace">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-sadie">
-                                                            <img src="assets/img/projects/4.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/4-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item garden office workspace">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-zoe">
-                                                            <img src="assets/img/projects/5.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/5-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item architecture garden office">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-honey">
-                                                            <img src="assets/img/projects/6.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/6-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item architecture garden office">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-oscar">
-                                                            <img src="assets/img/projects/7.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/7-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
-
-                                            <div class="cbp-item architecture garden office">
-                                                <div class="project-item">
-                                                    <div class="inner">
-                                                        <div class="grid">
-                                                        <figure class="effect-sadie">
-                                                            <img src="assets/img/projects/8.jpg" alt="image" />
-                                                            <figcaption>
-                                                                <div>
-                                                                    <h2><a   href="{{Route('details')}}">LUXURY BUILDINGS</a></h2>
-                                                                    <p>Construction</p>
-                                                                </div>
-                                                            </figcaption>           
-                                                        </figure>
-                                                        </div>
-
-                                                        <a class="project-zoom cbp-lightbox" href="assets/img/projects/8-full.html" data-title="LUXURY BUILDINGS">
-                                                            <i class="fa fa-arrows-alt"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div><!--/.cbp-item -->
+                                            </div>
+                                            <!--/.cbp-item -->
+                                               @endforeach
+                                           @else
+                                           There are no Projects available                                              
+                                           @endif
                                         </div><!-- /#projects -->
                                     </div><!--/.wprt-project -->
                                 </div><!-- /.col-md-12 -->
 
                                 <div class="col-md-12">
                                     <div class="wprt-pagination clearfix">
-                                        <ul class="page-numbers">
+                                        {{$projects->links()}}
+                                        {{-- <ul class="page-numbers">
                                             <li><span class="page-numbers current">1</span></li>
                                             <li><a class="page-numbers" href="#">2</a></li>
                                             <li><a class="next page-numbers" href="#"><span class="fa fa-angle-right"></span></a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </div>
                     
                                     <div class="wprt-spacer" data-desktop="80" data-mobi="40" data-smobi="40"></div>
