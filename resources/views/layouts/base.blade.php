@@ -49,6 +49,10 @@
 </head>
 
 <body class="front-page no-sidebar site-layout-full-width menu-has-cart menu-has-search header-sticky">
+    {{-- facebook  --}}
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="hMjPlwqC"></script>
+
 
     <div id="wrapper" class="animsition">
         <div id="page" class="clearfix">
@@ -69,11 +73,8 @@
                             <div class="top-bar-socials">
                                 <div class="inner">
                                     <span class="icons">
-                                        <a href="#" title="Twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                                        <a href="#" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                                        <a href="https://www.instagram.com/coffi_construction/" title="Instagram"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
-                                        <a href="#" title="Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span></a>
-                                        <a href="#" title="Dribbble"><span class="fa fa-dribbble" aria-hidden="true"></span></a>
+                                        <a href="https://www.facebook.com/cofficonstruction" title="Facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                        <a href="https://www.instagram.com/coffi_construction/" title="Instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
                                     </span>
                                 </div>
                             </div><!-- /.top-bar-socials -->
@@ -171,53 +172,7 @@
 
                         <div class="col-md-3">
                             <div class="widget widget_instagram">
-                                <h2 class="widget-title">Instagram photos</h2>
-
-                                <div class="instagram-wrap clearfix g10">
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/1.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/2.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/3.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/4.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/5.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="instagram_badge_image">
-                                        <a href="#">
-                                            <div class="item">
-                                                <img src="assets/img/instagram/6.jpg" alt="image" />
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                                <div class="fb-page" data-href="https://www.facebook.com/cofficonstruction" data-tabs="timeline,events,messages" data-width="" data-height="360" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cofficonstruction" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cofficonstruction">COFFI Construction</a></blockquote></div>                            </div>
                         </div>
                     </div>
                 </div>

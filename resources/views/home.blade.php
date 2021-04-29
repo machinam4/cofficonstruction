@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Hero Background SlideShow -->
-            <div id="hero-section" data-number="3" data-image-1="assets/img/coffi/cofficonstruction1.webp" data-image-2="assets/img/coffi/cofficonstruction1.webp" data-image-3="assets/img/coffi/cofficonstruction1.webp" data-effect="fade">
+            <div id="hero-section" data-number="3" data-image-1="assets/img/coffi/cofficonstruction2.webp" data-image-2="assets/img/coffi/cofficonstruction3.webp" data-image-3="assets/img/coffi/cofficonstruction4.webp" data-effect="fade">
                 <div class="hero-content">
                     <div class="hero-title">
                         <h1>WE DESIGN.</h1>
@@ -52,7 +52,7 @@
 
                                             <div class="col-md-4">
                                                 <div class="service-item clearfix text-center">
-                                                    <div class="thumb"><img src="assets/img/coffi/bypass back view-1.png" alt="image" /></div>
+                                                    <div class="thumb"><img src="assets/img/coffi/cofficonstruction6.webp" alt="image" /></div>
                                                     <div class="service-item-wrap">
                                                         <h3 class="title font-size-18"><a href="#">Construction &amp; Recconstruction</a></h3>
                                                         <p class="desc">With our top engineers we assure the best construction from the ground leveling, foundation to the finishing. Top notch constructions and reconstruction is our expertise.</p>
@@ -68,7 +68,7 @@
 
                                             <div class="col-md-4">
                                                 <div class="service-item clearfix text-center">
-                                                    <div class="thumb"><img src="assets/img/coffi/CARO FRONT VIEW-1.png" alt="image" /></div>
+                                                    <div class="thumb"><img src="assets/img/coffi/cofficonstruction7.webp" alt="image" /></div>
                                                     <div class="service-item-wrap">
                                                         <h3 class="title font-size-18"><a href="#">Supply &amp; Installation</a></h3>
                                                         <p class="desc">We supply buiding materials such as tiles, bathroom fittings, kitchen sinks, wardrobes and all types of wooden finishes.
@@ -266,7 +266,7 @@
                                     <div class="container-fluid no-padding">
                                         <div class="row no-margin">
                                             <div class="col-md-6 no-padding">
-                                                <img src="assets/img/group.jpg" alt="image">
+                                                <img src="assets/img/coffi/cofficonstruction5.webp" alt="image">
                                             </div><!-- /.col-md-6 -->
 
                                             <div class="col-md-6 no-padding">
