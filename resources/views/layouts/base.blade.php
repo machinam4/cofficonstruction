@@ -254,13 +254,13 @@
 <script type="text/javascript">
     (function () {
         var options = {
-            whatsapp: "+254 758 309 015", // WhatsApp number
-            call: "+254 758 309 015", // Call phone number
+            whatsapp: "+254 729 484 988", // WhatsApp number
+            call: "+254 729 484 988", // Call phone number
             call_to_action: "Message us", // Call to action
             button_color: "#932C8B", // Color of button
             position: "right", // Position may be 'right' or 'left'
             order: "whatsapp,call", // Order of buttons
-            pre_filled_message: "Hello, how may we help you? Just send us a message", // WhatsApp pre-filled message
+            pre_filled_message: "Hello, I'm interested in working with you", // WhatsApp pre-filled message
         };
         var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
