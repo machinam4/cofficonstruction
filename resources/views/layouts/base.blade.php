@@ -10,9 +10,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <meta name="description" content="Template built for Construction Company, Building Services, Architecture, Engineering, Cleaning Service and other Construction related services">
+    <meta name="description" content="COFFI Construction began as a general works contractor in 2015. Over the years, the group has undertaken many challenging projects and accumulated skills, know- how and experiences in design and build solutions, project management services, building trades and related engineering works.">
     <meta name="keywords" content=" architecture, builder, building, building company, cleaning services, construction, construction business, construction company">
-    <meta name="author" content="blogwp.com">
+    <meta name="author" content="evoton.co.ke">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -23,7 +23,7 @@
 
     <!-- Favicon and touch icons  -->
     <link rel="shortcut icon" href="{{ asset('assets/icon/coffi_logo.jpg')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/icon/apple-touch-icon-158-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/icon/coffi_logo.jpg')}}">
 
     <!-- -- css scripts -- -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css')}}">
